@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+   
+
+
+   
+   
+    height: 100vh;
+    background-image: url(/image6.jpg);
+    background-size: cover;
+    background-position: center;
+   
+   
+}
+.bmi-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 8%;
+}
+   
+.container {
+    background-color: rgb(245, 246, 247);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgb(70, 64, 64);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    background-color: transparent;
+    
+}
+   
+.container:hover{
+     transform: translateY(-10px);
+      box-shadow: 0 0px 8px rgb(249, 241, 241);
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    color: #f0f4f8;
+    background-color:  #007bff;
+      border-radius: 5px;
+      font-family:'Times New Roman', Times, serif;
+    
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f0f4f8;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.bmi-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.bmi-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.result {
+    margin-top: 20px;
+    
+}
+h2{
+    color: #f0f4f8;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a2e;
+    padding: 15px 30px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.cta-button {
+    background-color: #e94560;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff6363;
+}
+

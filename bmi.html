@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="bmistyles.css">
+</head>
+<body>
+    <header>
+         <nav class="navbar">
+            <div class="logo">FitnessPro</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <button class="cta-button">Join Now</button>
+        </nav>
+    </header>
+    <section class="bmi-container">
+    <div class="container">
+        <h1 >BMI Calculator</h1>
+        <div class="input-group">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" placeholder="Enter your weight" required>
+        </div>
+        <div class="input-group">
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" placeholder="Enter your height" required>
+        </div>
+        <button class="bmi-button" onclick="calculateBMI()">Calculate BMI</button>
+        <div class="result">
+            <h2>Your BMI: <span id="bmi-result">--</span></h2>
+            <p id="bmi-category"></p>
+        </div>
+    </div>
+</section>
+    <script src="bmiscript.js"></script>
+</body>
+</html>
